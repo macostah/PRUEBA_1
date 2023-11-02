@@ -1,0 +1,16 @@
+USE [BD_SISTEMA_DE_PARKING]
+GO
+
+/****** Object:  Table [dbo].[TB_DOCUMENTO_PLACA]    Script Date: 2/11/2023 11:01:35 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[TB_DOCUMENTO_PLACA](
+	[PLACA] [varchar](53) NULL,
+	[DOCUMENTO] [varchar](53) NULL
+) ON [PRIMARY]
+GO
+
